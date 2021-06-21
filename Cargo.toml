@@ -1,0 +1,20 @@
+[package]
+name = "discord_bot"
+version = "0.1.0"
+authors = ["billaids <jimmy.nelle@hsw-stud.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1.50"
+google-drive3 = "2"
+hyper = "0.14.9"
+hyper-rustls = "0.22.1"
+rustube = "0.3.2"
+serde = "1.0.126"
+serde_json = "1.0.64"
+serde_yaml = "0.8.17"
+serenity = { version = "0.10", default-features = false, features = ["client", "gateway", "rustls_backend", "model"] }
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+yup-oauth2 = "5.1.0"
