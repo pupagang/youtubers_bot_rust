@@ -5,6 +5,7 @@ use std::fs::File;
 pub struct Config {
     pub token: String,
     pub persist_path: String,
+    pub drive_root: String,
 }
 
 impl Config {
