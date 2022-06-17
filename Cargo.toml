@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 async-trait = "0.1.50"
 google-drive3 = "2"
-hyper = "0.14.9"
+hyper = "0.14.12"
 hyper-rustls = "0.22.1"
 rustube = "0.3.2"
 serde = "1.0.126"
